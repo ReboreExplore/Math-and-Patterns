@@ -8,13 +8,14 @@ def init_turtle():
     screen = turtle.Screen()
     screen.setup(HEIGHT,WIDTH)
     screen.title('Flower of Life')
-    screen.bgcolor("black")
+    # screen.bgcolor("black")
 
 def create_turtle():
     t = turtle.Turtle()
-    t.speed(9)
+    t.speed(0)
     t.color('red')
     t.shape('turtle')
+    t.width(4)
     return t
 
 def create_first_seed(t):
@@ -52,4 +53,5 @@ t = create_turtle()
 create_first_seed(t)
 create_one_folds('blue',t,12,2)
 
+t.hideturtle()
 time.sleep(5)
