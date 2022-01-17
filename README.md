@@ -10,6 +10,6 @@ This repository containes some interesting math patterns:
     ```
     <img src="flower-of-life/flower_of_life.png" width='200'>
 
-2. **The Chaos Game**: A preety triangular pattern formed with jus initial input off three points and iterative mid-points calculations. The implementation can be found here.
+2. **The Chaos Game**: A preety triangular pattern formed with jus initial input off three points and iterative mid-points calculations. The implementation can be found [here](https://github.com/ReboreExplore/Math-and-Patterns/tree/master/Chaos%20Game).
 
     <img src="Chaos Game/chaos-game.png" width='200'>
